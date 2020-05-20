@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Voice_Command_App.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +15,7 @@ public partial class SecondPage : ContentPage
     public SecondPage()
     {
         InitializeComponent();
+        BindingContext = new SecondPageViewModel();
     }
 }
 }
