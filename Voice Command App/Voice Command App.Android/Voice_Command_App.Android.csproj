@@ -89,9 +89,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Voice Command App\Voice Command App.csproj">
-      <Project>{03366B7A-F776-4D98-BA3C-AABCD4709936}</Project>
-      <Name>Voice Command App</Name>
+    <ProjectReference Include="..\Voice Command App\Voice_Command_App.csproj">
+      <Project>{0B81AFD1-1A67-4D73-BCD2-B748C2783E62}</Project>
+      <Name>Voice_Command_App</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
