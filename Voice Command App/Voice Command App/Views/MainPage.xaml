@@ -11,6 +11,9 @@
         <Label Text="Welcome to Voice based app!" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+        <Button Text="Navigate to next page!"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"/>
     </StackLayout>
 
 </ContentPage>
