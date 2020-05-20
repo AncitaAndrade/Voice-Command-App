@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows.Input;
+﻿using System.Windows.Input;
+using Voice_Command_App.Views;
 using Xamarin.Forms;
 
 namespace Voice_Command_App.ViewModels
@@ -19,7 +17,8 @@ namespace Voice_Command_App.ViewModels
 
         private void OnGotoNextPageButtonClicked()
         {
-            System.Diagnostics.Debug.WriteLine("hey");
+            var nextPage = new SecondPage();
+            Xamarin.Forms.Application.Current.MainPage.Navigation.PushAsync(nextPage);
         }
     }
 }
