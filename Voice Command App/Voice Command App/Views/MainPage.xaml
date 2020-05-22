@@ -11,10 +11,14 @@
         <Label Text="{Binding MainPageLabel}" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
-        <Button Text="Navigate to next page!"
+        <Button Text="Record"
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand" 
                 Command="{Binding ButtonClickCommand}"/>
+        <Button Text="Stop Record"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" 
+                Command="{Binding StopCommand}"/>
     </StackLayout>
 
 </ContentPage>
